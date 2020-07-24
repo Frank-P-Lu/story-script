@@ -63,6 +63,7 @@ Text, and more text
 ```
 
 `SectionName` - Name of the current section
+
 `SectionA` - Name of the next section
 
 ### Choice 
