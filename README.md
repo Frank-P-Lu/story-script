@@ -6,7 +6,7 @@ A simple language for writing choose-your-own-adventure type games.
 
 When building a text adventure from scratch, we needed a way to structure branching paths as a result of the player's choices.
 
-The target game engine is (Godot)[https://godotengine.org], and we wanted to write our script separate from the game files. The solution, was to write in a simple language designed for making choices, and use a parser to convert the script files into game assets.
+The target game engine is [Godot](https://godotengine.org), and we wanted to write our script separate from the game files. The solution, was to write in a simple language designed for making choices, and use a parser to convert the script files into game assets.
 
 ## Progress
 A simple Python parser is almost complete. The target parser script (in GDScript) is still in the works. 
@@ -68,7 +68,7 @@ Text, and more text
 ### Choice 
 
 `||` denotes a choice section.
-Within a choice, each option is listed as follows, where [Type-of-check] denotes a check. 
+Within a choice, each option is listed as follows, where `[]` denotes a check. 
 
 ```
 |ChoiceName|
