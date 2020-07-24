@@ -77,9 +77,13 @@ Within a choice, each option is listed as follows, where `[]` denotes a check.
 ```
 
 `ChoiceName` - Name of the current choice section
+
 `CheckA` - an optional check to see if the player meets the requirements for displaying this choice. 
+
 `CheckB` - a check to see if the player succeeded in the action of the choice.
+
 `SectionA` - If CheckB succeeded, then go to SectionA
+
 `SectionB` - If CheckB failed, then go to SectionB
 
 For a choice that will always succeed, the following syntax should be used:
